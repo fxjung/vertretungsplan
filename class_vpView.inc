@@ -120,7 +120,7 @@ class vpView {
       // Note: &nbsp; causes the cell to be shown (important for td border attribute)
       echo sprintf("<tr><td><b>%s</b>&nbsp;</td><td>%s&nbsp;</td><td>%s&nbsp;</td>".
         "<td>%s&nbsp;</td><td>%s&nbsp;</td><td>%s&nbsp;</td><td>%s&nbsp;</td><td>%s&nbsp;</td></tr>\n", 
-        ($strTeacher == $strOldTeacher) ? "" : $strTeacher,07 	 
+        ($strTeacher == $strOldTeacher) ? "" : $strTeacher,
         q($oStandIn->getLesson()), q($oStandIn->getClass()),
         q($oStandIn->getRoom()), q($oStandIn->getOriginalTeacher()),
         q($oStandIn->getLessonFrom()), q($oStandIn->getTeacherTo()), 
