@@ -47,7 +47,7 @@ class vpStandIn {
   /** @param timestamp */
   function setDate($val) { $this->tsDate = intval($val); }
   /** @param int */
-  function setLesson($val) { $this->nLesson = $val; }
+  function setLesson($val) { $this->nLesson = intval($val); }
   /** @param string */
   function setOriginalTeacher($val) { $this->strOriginalTeacher = $val; }
   /** @param string */
